@@ -42,7 +42,7 @@ function Todo() {
   setTasks(items);
 
   // ⭐ SAVE ORDER IN DB
-  await axios.put("http://localhost:5000/tasks/reorder", {
+  await axios.put("https://planner-app-bmys.onrender.com", {
     tasks: items
   });
 };
